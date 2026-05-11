@@ -1,4 +1,3 @@
-
 public class BestTimeToBuyAndSellStock {
 
     public int maxProfit(int[] prices) {
@@ -16,9 +15,8 @@ public class BestTimeToBuyAndSellStock {
 
     public static void main(String[] args) {
         BestTimeToBuyAndSellStock sol = new BestTimeToBuyAndSellStock();
-
-        System.out.println("Test 1: " + sol.maxProfit(new int[]{7,1,5,3,6,4})); // 5
-        System.out.println("Test 2: " + sol.maxProfit(new int[]{7,6,4,3,1}));   // 0
-        System.out.println("Test 3: " + sol.maxProfit(new int[]{2,4,1}));        // 2
+        System.out.println("Test 1: " + sol.maxProfit(new int[]{7,1,5,3,6,4}));
+        System.out.println("Test 2: " + sol.maxProfit(new int[]{7,6,4,3,1}));
+        System.out.println("Test 3: " + sol.maxProfit(new int[]{2,4,1}));
     }
 }
